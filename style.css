@@ -48,9 +48,15 @@ html,body{
     background-color: rgb(80, 80,80);
     border-radius:5px ;
 }
+.sidebar-menu-itens{
+    margin-top: 12px;
+    cursor: pointer;
+    vertical-align: middle;
+}
 
 .sidebar-menu-itens img{
     width: 20px;
+    
  
 }
 .sidebar-menu p.sidebar-menu-title{
@@ -58,12 +64,38 @@ html,body{
     text-transform: uppercase;
     font-size: 14px ;
 }
-.sidebar-menu-componente {
+.sidebar-menu--itens-componente {
      width: 30px;
     height: 30px;
-    text-align: right;
+    text-align: center;
     display: inline-block;
     color: black;
     line-height: 30px;
     font-weight: bold;
+    background-color: white;
+ 
+}
+.sidebar-menu-itens span{
+    font-weight: bold;
+    font-size: 14px;
+    padding: 0 10px;
+}
+.sidebar-menu-itens img{
+    vertical-align:middle ;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+}
+.sidebar-playlist{
+    border-top: 1px solid rgb(40,40,40);
+    padding: 20px 0;
+}
+.sidebar-playlist a{
+    margin: 10px 0;
+    display: block;
+    color: rgb(190, 190,190);
+    text-decoration: none;
+}
+.sidebar-playlist a:hover{
+    color: white;
 }
