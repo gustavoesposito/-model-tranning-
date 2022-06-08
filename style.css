@@ -99,3 +99,24 @@ html,body{
 .sidebar-playlist a:hover{
     color: white;
 }
+/* Parte principal do app*/
+
+.main{
+    width: calc(100%-50px);
+    background-color: rgb(30,30,30);
+    height: 100%;
+
+    float: left;
+    padding: 15px 50px;
+}
+.main-row{
+    /*manipulando dimensões sem que o flexbox deixe em uma linha só*/
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+.main-wraper{
+    padding-bottom:200px;
+}
