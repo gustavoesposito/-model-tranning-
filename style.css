@@ -1,0 +1,41 @@
+@charset 'UTF-8';
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+html,body{
+    height: 100%;
+
+}
+.sidebar{
+    float: left;
+    width: 250px;
+    padding: 10px 10px;
+    overflow-y: auto;
+    overflow-x: hidden;
+    height: 100%;
+    background-color: black;
+}
+
+.sidebar-wraper{
+    padding-bottom: 200px;
+}
+.sidebar-menu{
+    margin: 20px 0;
+    color: rgb(190, 190,190);
+}
+.sidebar-logo img{
+    max-width: 250px; /*truque para img ficar responsiva e ficar alinhada*/
+    width: 100%;
+}
+.sidebar-menu a{
+    color: rgb(190, 190,190);
+    text-decoration: none;
+    display: block;
+    padding: 2px 0;
+}
