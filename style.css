@@ -28,6 +28,7 @@ html,body{
 .sidebar-menu{
     margin: 20px 0;
     color: rgb(190, 190,190);
+ 
 }
 .sidebar-logo img{
     max-width: 250px; /*truque para img ficar responsiva e ficar alinhada*/
@@ -38,4 +39,31 @@ html,body{
     text-decoration: none;
     display: block;
     padding: 2px 0;
+}
+.sidebar-menu svg{
+    margin: 0 20px;
+}
+.sidebar-menu a.sidebar-menu-selecionado{
+    color: white;
+    background-color: rgb(80, 80,80);
+    border-radius:5px ;
+}
+
+.sidebar-menu-itens img{
+    width: 20px;
+ 
+}
+.sidebar-menu p.sidebar-menu-title{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px ;
+}
+.sidebar-menu-componente {
+     width: 30px;
+    height: 30px;
+    text-align: right;
+    display: inline-block;
+    color: black;
+    line-height: 30px;
+    font-weight: bold;
 }
